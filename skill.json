@@ -1,0 +1,29 @@
+{
+  "name": "genpark-ast-import-dependency-rewriter-skill",
+  "version": "1.0.0",
+  "description": "Token-safe AST import re-aliasing and dependency migration engine safely replacing module paths and callsites without regex bugs.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "ast-rewriter",
+    "code-migration",
+    "refactoring",
+    "import-aliasing",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "rewrite_import_statements",
+      "description": "Safely rewrite module paths in Import and ImportFrom AST nodes."
+    },
+    {
+      "name": "verify_syntax_integrity",
+      "description": "Verify that modified source code compiles without syntax errors."
+    },
+    {
+      "name": "run_benchmark_import_rewriter",
+      "description": "Run import rewriting benchmark."
+    }
+  ]
+}
